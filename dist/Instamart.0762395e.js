@@ -615,7 +615,7 @@ const Section = ({ title , description , isVisible , setIsVisible  })=>{
                 children: title
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 9,
+                lineNumber: 6,
                 columnNumber: 7
             }, undefined),
             isVisible ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -626,21 +626,21 @@ const Section = ({ title , description , isVisible , setIsVisible  })=>{
                         children: "Hide"
                     }, void 0, false, {
                         fileName: "src/components/Instamart.js",
-                        lineNumber: 11,
+                        lineNumber: 9,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                         children: description
                     }, void 0, false, {
                         fileName: "src/components/Instamart.js",
-                        lineNumber: 14,
+                        lineNumber: 12,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 10,
-                columnNumber: 20
+                lineNumber: 8,
+                columnNumber: 8
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                 className: "cursor-pointer underline",
                 onClick: ()=>setIsVisible(true),
@@ -648,13 +648,13 @@ const Section = ({ title , description , isVisible , setIsVisible  })=>{
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
                 lineNumber: 15,
-                columnNumber: 18
+                columnNumber: 9
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Instamart.js",
-        lineNumber: 8,
-        columnNumber: 10
+        lineNumber: 5,
+        columnNumber: 5
     }, undefined);
 };
 _c = Section;
@@ -672,7 +672,7 @@ const Instamart = ()=>{
                 children: "Instamart"
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 31,
+                lineNumber: 37,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
@@ -682,7 +682,7 @@ const Instamart = ()=>{
                 setIsVisible: ()=>handleSectionToggle("about")
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 32,
+                lineNumber: 38,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
@@ -692,7 +692,7 @@ const Instamart = ()=>{
                 setIsVisible: ()=>handleSectionToggle("team")
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 33,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Section, {
@@ -702,14 +702,14 @@ const Instamart = ()=>{
                 setIsVisible: ()=>handleSectionToggle("careers")
             }, void 0, false, {
                 fileName: "src/components/Instamart.js",
-                lineNumber: 34,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/Instamart.js",
-        lineNumber: 30,
-        columnNumber: 10
+        lineNumber: 36,
+        columnNumber: 5
     }, undefined);
 };
 _s(Instamart, "oxQsWSPH581uWzYdmUIWRjyO09s=");
