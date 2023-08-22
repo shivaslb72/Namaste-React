@@ -13,7 +13,7 @@ const CardShimmer = () => {
 
 const Shimmer = () => {
   return (
-    <div className="p-2 m-2 flex flex-wrap justify-between gap-4">
+    <div data-testid="shimmer" className="p-2 m-2 flex flex-wrap justify-between gap-4">
     {new Array(shimmer_card_unit).fill(0).map((element, index) => {
       return <CardShimmer key={index} />;
     })}

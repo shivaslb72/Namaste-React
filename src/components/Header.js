@@ -10,6 +10,7 @@ export const Title = () => (
   <a href="/">
     <h1>
       <img
+        data-testid="logo"
         className="h-28 p-2 "
         alt="logo"
         src={Logo}
@@ -39,7 +40,7 @@ const Header = () => {
             <FontAwesomeIcon icon={faCartShopping} />
           </li> */}
 
-          <Link to="/cart"><li>Cart - {cartItems.length} items</li></Link>
+          <Link to="/cart"><li data-testid="cart" >Cart - {cartItems.length} items</li></Link>
         </ul>
       </div>
       {user.name}

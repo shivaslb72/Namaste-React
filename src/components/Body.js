@@ -57,7 +57,7 @@ const Body =()=>{ //parent
         onChange={(e)=>setSearchText(e.target.value)}
         />
         
-        <button className="p-2 m-2 bg-purple-900 text-white rounded-md hover:bg-gray-500" onClick={()=>{
+        <button data-testid="search-btn"className="p-2 m-2 bg-purple-900 text-white rounded-md hover:bg-gray-500" onClick={()=>{
             const data = filterData(searchText,allredRestruants)
             setFilteredRestruants(data)
             
@@ -67,7 +67,7 @@ const Body =()=>{ //parent
         <input value={user.email} onChange={e=>setUser({...user,email:e.target.value})}/>
     </div>
     
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4" data-testid="res-list">
     {filteredRestruants.length === 0 ? (
     <h1 className="col-span-full">No Restaurants Match Your Filter</h1>
    ) : (
